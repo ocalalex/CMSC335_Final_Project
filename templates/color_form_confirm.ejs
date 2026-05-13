@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Main Page</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>Color Palette Creator</h1>
+        <form method="post" action="/generate">
+            <label>Choose an initial color to create a color palette around. <%- color_input %></label><br>
+            <input type="submit" value="Create Palette"/>
+	    </form>
+        <br>
+
+        <%- palette %>
+
+        <form method="post" action="/save">
+            <input type="hidden" name="paletteData" value="<%= JSON.stringify(rawPalette) %>">
+            <input type="submit" value="Save Palette"/>
+	    </form>
+
+        <br>
+        <hr>
+	    <a href="/">HOME</a>
+    </body>
+</html>

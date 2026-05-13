@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Main Page</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>Color Palette Viewer<h1>
+        <form method="post" action="/viewAll/deleteAll">
+            <input type="submit" value="Delete All Palettes"/>
+	    </form>
+        <br>
+
+        <%- palettes %>
+
+        <br>
+        <hr>
+	    <a href="/">HOME</a>
+    </body>
+</html>

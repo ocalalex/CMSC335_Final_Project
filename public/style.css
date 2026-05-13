@@ -1,0 +1,17 @@
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  background-color: lightgray;
+  color: black;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+a, p, form {
+  font-size: 20px;
+}
