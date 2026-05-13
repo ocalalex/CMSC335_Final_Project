@@ -4,5 +4,5 @@ App Description: Allow users to input a color, and create a color palette using 
 YouTube Video Link: temp
 APIs: Colormind (http://colormind.io/api-access/)
 Contact Email:  oalex@umd.edu
-Deployed App Link: temp
+Deployed App Link: (https://cmsc335-final-project-6vsa.onrender.com/)
 AI Use: 1. ChatGPT
